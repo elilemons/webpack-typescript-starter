@@ -1,3 +1,3 @@
-export default function printMe() {
-  console.log('I got called from print.ts');
+export default function printMe(text: string) {
+  document.getElementById('results').innerText += `${text}\n`;
 }
